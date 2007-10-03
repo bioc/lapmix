@@ -18,7 +18,7 @@ laptopTable <- function(res, number=res$med.number, sort.by='L')
 	}
 	else if(sort.by == 'M')
 	{
-		ix <- sort(M, decreasing=TRUE, index.return=TRUE)$ix
+		ix <- sort(res$M, decreasing=TRUE, index.return=TRUE)$ix
 		diff.genes <- ix[1:number]	
 	}
 	else

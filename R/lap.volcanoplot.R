@@ -6,7 +6,7 @@ lap.volcanoplot <- function(res, highlight=0, ...)
 	if(highlight > 0)
 	{
 		table <- laptopTable(res, number=highlight)
-		points(table$M, table$log_odds, pch=3, col='red')
+		points(table$M, table$log.odds, pch=3, col='red')
 	}
 	invisible()
 }
