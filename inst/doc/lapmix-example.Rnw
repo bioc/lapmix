@@ -68,7 +68,7 @@ res2$estimates
 @
 and the result can be treated as in the symmetric case.
 
-By default the \texttt{lapmix.Fit} routine uses a `fast' hyperparameter estimation method: a very small proportion of the integrals in the marginal likelihoods cannot be computed via the $t$-distribution and are thus neglected (see Bhomwick et al. 2006, p. 7). A `slow' method can be invoked by inserting the argument \texttt{fast=FALSE} in the call to \texttt{lapmix.Fit}. This will compute the problem integrals numerically using the \texttt{integrate} routine. This is not advised, however: experiments suggest there is very little difference between the fast and slow methods, and the latter may cause convergence problems when used in conjunction with the one-step estimation approach.
+By default the \texttt{lapmix.Fit} routine uses a `fast' hyperparameter estimation method: a very small proportion of the integrals in the marginal likelihoods cannot be computed via the $t$-distribution and are thus neglected (see Bhomwick et al. 2006, p. 632). A `slow' method can be invoked by inserting the argument \texttt{fast=FALSE} in the call to \texttt{lapmix.Fit}. This will compute the problem integrals numerically using the \texttt{integrate} routine. This is not advised, however: experiments suggest there is very little difference between the fast and slow methods, and the latter may cause convergence problems when used in conjunction with the one-step estimation approach.
 
 \section*{References}
 
@@ -76,7 +76,7 @@ By default the \texttt{lapmix.Fit} routine uses a `fast' hyperparameter estimati
 
 \item Bhowmick, D., Davison, A. C., Goldstein, D. R., and Ruffieux, Y. (2006)
 A Laplace mixture model for identification of differential expression in microarray experiments.
-To appear in \emph{Biostatistics}.
+\emph{Biostatistics} \textbf{7}, 4: 630-641.
 
 \item L\"{o}nnstedt, I. and Speed, T. P. (2002).
 Replicated microarray data.
