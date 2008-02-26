@@ -1,6 +1,6 @@
 lapmix.Fit <- function(Y, asym=FALSE, fast=TRUE, two.step=TRUE, w=0.1, V=10, beta=0, gamma=1, alpha=0.1)
 {
-	if(is(Y,"exprSet") || is(Y,"ExpressionSet"))
+	if(is(Y,"ExpressionSet"))
 		Y <- exprs(Y)
 	if(is.matrix(Y))
 	{

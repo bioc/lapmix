@@ -12,7 +12,7 @@ lapmix.Fit(Y, asym=FALSE, fast=TRUE, two.step=TRUE,
 }
 
 \arguments{
-  \item{Y}{data.frame or matrix containing the log relative expression levels, where each row represents a gene. Alternatively, a list of arrays of possibly different sizes, or an object of class \code{eSet}, \code{exprSet}, or \code{ExpressionSet}.}
+  \item{Y}{data.frame or matrix containing the log relative expression levels, where each row represents a gene. Alternatively, a list of arrays of possibly different sizes, or an object of class \code{eSet} or \code{ExpressionSet}.}
   \item{asym}{indicates whether the asymmetric Laplace model is used rather than the symmetric one.}
   \item{fast}{indicates whether the 'fast' estimation method is used.}
   \item{two.step}{indicates whether the two-step estimation method is used; otherwise the marginal likelihood is maximised in one step.}
@@ -41,7 +41,6 @@ The `fast' estimation method ignores the integrals which cannot be computed with
 \references{Bhowmick, D., Davison, A.C., and Goldstein, D.R. (2006). A Laplace mixture model for identification of differential expression in microarray experiments.}
 
 \examples{
-
 #  Simulate gene expression data under Laplace mixture model: 3000 genes with
 #  4 duplicates each; one gene in ten is differentially expressed.
 
