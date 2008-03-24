@@ -1,7 +1,0 @@
-lap.lmFit		Fits relative gene expressions to Laplace mixture
-			model and estimates hyperparameters with empirical
-			Bayes
-laptopTable		Ranks genes according to posterior odds of differential
-			expressions
-lap.volcanoplot		Creates volcano plot of log fold change vs. log odds of
-			differential expression
