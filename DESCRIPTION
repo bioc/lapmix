@@ -1,5 +1,5 @@
 Package: lapmix
-Version: 1.9.0
+Version: 1.9.1
 Title: Laplace Mixture Model in Microarray Experiments
 Author: Yann Ruffieux, contributions from Debjani Bhowmick,
 	Anthony C. Davison, and Darlene R. Goldstein
@@ -9,7 +9,7 @@ Description:  Laplace mixture modelling of microarray experiments.
 	are estimated using empirical Bayes. The main purpose is to
 	identify differentially expressed genes.
 Depends: R (>= 2.6.0), Biobase
-biocViews: Statistics, Microarray, OneChannel, DifferentialExpression
+biocViews: Bioinformatics, Microarray, OneChannel, DifferentialExpression
 License: GPL version 2 or newer
 URL: http://www.r-project.org, http://www.bioconductor.org,
 	http://stat.epfl.ch
