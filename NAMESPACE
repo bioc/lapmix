@@ -10,7 +10,7 @@ importFrom(methods, is, showClass, showMlist)
 
 importFrom(stats, as.ts, coef, dendrapply, deviance, df, end, formula,
            frequency, integrate, IQR, is.leaf, knots, naprint, nlm, pf,
-           pnorm, print.anova, printCoefmat, pt, quantile, reformulate,
+           pnorm, printCoefmat, pt, quantile, reformulate,
            residuals, start, symnum, terms, time, ts, tsp, var,
            write.ftable)
 
