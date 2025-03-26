@@ -1,5 +1,5 @@
 Package: lapmix
-Version: 1.73.0
+Version: 1.73.1
 Title: Laplace Mixture Model in Microarray Experiments
 Author: Yann Ruffieux, contributions from Debjani Bhowmick, Anthony C.
         Davison, and Darlene R. Goldstein
@@ -14,3 +14,4 @@ License: GPL (>= 2)
 URL: http://www.r-project.org, http://www.bioconductor.org,
         http://stat.epfl.ch
 biocViews: Microarray, OneChannel, DifferentialExpression
+PackageStatus: Deprecated
